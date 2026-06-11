@@ -1,0 +1,129 @@
+body {
+    background-color: #526649;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://w3.org" width="24" height="24" viewBox="0 0 24 24"><circle cx="2" cy="2" r="1.5" fill="%23ffb7c5" opacity="0.25"/></svg>');
+    background-repeat: repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    padding: 0px;
+}
+
+.display-container {
+    position: absolute;
+    top: 50px;
+    bottom: 50px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.matrix-card {
+    position: relative;
+    background-color: #faf9f6;
+    border-width: thick;
+    border-style: solid;
+    border-color: #ffb7c5;
+    margin: 40px;
+    padding: 35px;
+    width: 320px;
+    text-align: center;
+}
+
+.matrix-card h2 {
+    color: #526649;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+.matrix-card p {
+    color: #707571;
+    font-size: 13px;
+    line-height: 1.4;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.data-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.block-thin {
+    background-color: #faf9f6;
+    border-width: thin;
+    border-style: solid;
+    border-color: #526649;
+    padding: 12px;
+    margin: 5px;
+}
+
+.block-medium {
+    background-color: #faf9f6;
+    border-width: medium;
+    border-style: dashed;
+    border-color: #526649;
+    padding: 12px;
+    margin: 5px;
+}
+
+.block-thick {
+    background-color: #faf9f6;
+    border-width: thick;
+    border-style: double;
+    border-color: #526649;
+    padding: 12px;
+    margin: 5px;
+}
+
+.block-thin span, 
+.block-medium span, 
+.block-thick span {
+    font-size: 11px;
+    font-weight: bold;
+    color: #526649;
+}
+
+.link-section {
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.node-link {
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-width: thin;
+    border-style: solid;
+}
+
+.node-link:link {
+    color: #526649;
+    background-color: transparent;
+    border-color: #526649;
+}
+
+.node-link:visited {
+    color: #707571;
+    border-color: #cbd5e1;
+}
+
+.node-link:hover {
+    color: #faf9f6;
+    background-color: #ffb7c5;
+    border-color: #ffb7c5;
+}
+
+.node-link:active {
+    color: #faf9f6;
+    background-color: #526649;
+    border-color: #526649;
+}
